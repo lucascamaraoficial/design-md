@@ -1,4 +1,3 @@
- ---
 version: alpha
 name: Google
 description: A clean, computationally precise interface system built around pure white surfaces, restrained elevation, soft rounded geometry, and Google's iconic multi-color identity. The experience prioritizes clarity, accessibility, whitespace, and scalable interaction patterns over decorative styling. Google Sans and Roboto create a highly neutral typographic voice designed to scale across search, productivity, AI, cloud, maps, and operating-system experiences.
@@ -370,5 +369,3 @@ Google strongly prioritizes:
 - Workspace products vary slightly in density and spacing.
 - Gemini, Cloud, Android, and Search each introduce localized UI variations.
 - Marketing pages use more expressive layouts than productivity interfaces.
-```
-
