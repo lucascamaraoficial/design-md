@@ -370,4 +370,5 @@ Google strongly prioritizes:
 - Workspace products vary slightly in density and spacing.
 - Gemini, Cloud, Android, and Search each introduce localized UI variations.
 - Marketing pages use more expressive layouts than productivity interfaces.
+```
 
