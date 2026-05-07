@@ -1,4 +1,4 @@
-```md
+---
 version: alpha
 name: Google
 description: A highly systematic product-and-brand interface built on an ultra-clean white canvas, restrained typography, mathematically balanced spacing, and Google's iconic multi-color identity system. The experience relies on whitespace, compositional rhythm, and functional hierarchy rather than aggressive decoration. Product surfaces prioritize clarity, utility, accessibility, and scalable interaction patterns across billions of users and thousands of UI contexts.
@@ -297,4 +297,3 @@ Google's system strongly prioritizes:
 - Different Google divisions apply different density strategies.
 - Gemini, Cloud, Workspace, Android, and Search each introduce localized component variations.
 - Exact spacing tokens vary between marketing and product surfaces.
-```
