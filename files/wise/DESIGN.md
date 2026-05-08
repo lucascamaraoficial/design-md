@@ -267,81 +267,208 @@ components:
 
 ## Overview
 
-Wise transforms financial infrastructure into a bold editorial experience. Instead of behaving like a traditional banking dashboard filled with dense tables, gradients, and conservative blue surfaces, the interface behaves more like a campaign system: giant headlines dominate the viewport, actions are oversized and optimistic, and the UI removes almost every unnecessary decorative layer.
+Wise reimagines financial infrastructure as a bold editorial experience rather than a traditional banking dashboard. The interface avoids the cold visual language commonly associated with fintech products and instead builds its identity around oversized typography, warm surfaces, optimistic color, and simplified interaction patterns.
 
-The visual identity is built around three core signals:
-- ultra-heavy Wise Sans typography
-- vibrant lime-green interactions
-- warm off-white surfaces with minimal shadows
+The experience feels closer to a modern publishing platform or campaign system than to enterprise banking software.
 
-The headline system is the defining characteristic of the brand. Display typography reaches extreme scales (`{typography.display-mega}` at 126px / 900) with an unusually compressed line-height of 0.85. Headlines feel stamped, urgent, and physical — closer to protest signage or editorial campaigns than enterprise fintech interfaces.
+---
 
-Unlike most financial products that rely on navy, cobalt, or cold grayscale palettes, Wise intentionally introduces warmth. The base canvas (`{colors.canvas}` — #f6f8f3) carries a subtle green tint, while the primary lime accent (`{colors.primary}` — #9fe870) injects energy without feeling aggressive. The combination creates a softer and more approachable interpretation of fintech.
+### Typography as the Main Visual System
 
-The interaction language is equally distinctive. Buttons do not rely on heavy hover shadows or glow effects. Instead, Wise uses physical scale transformations:
-- hover → `scale(1.05)`
-- active → `scale(0.95)`
+Typography is the single most dominant element across the entire experience.
 
-This makes interactions feel tactile and alive while preserving the system's minimal aesthetic.
+Wise Sans is used at extremely heavy weights (`900`) with compressed line-heights (`0.85`) to create headlines that feel physically stamped onto the interface. Headlines are intentionally oversized and frequently occupy entire sections without relying on additional decorative elements.
 
-The shape language is intentionally oversized and human:
-- pill buttons (`{rounded.full}`)
-- large rounded cards (`{rounded.lg}` / `{rounded.xl}`)
-- circular utility controls
-- generous spacing between modules
+Large marketing areas often contain only:
+- one massive headline
+- one supporting sentence
+- one CTA
 
-There are almost no sharp corners in the experience.
+The system trusts typography to carry hierarchy, emotion, and rhythm.
 
-The layout rhythm alternates between:
-- giant billboard-style hero sections
-- compact transfer/conversion utilities
-- comparison bands
-- lime-highlighted statistical callouts
-- dark financial showcase surfaces
+Unlike traditional SaaS products that rely on:
+- sidebars
+- dashboard density
+- widget systems
+- separators
+- elevated cards
 
-Wise avoids decorative complexity:
-- no gradients
-- almost no traditional shadows
-- no glassmorphism
-- no neumorphism
-- no excessive outlines
+Wise builds hierarchy almost entirely through:
+- scale
+- spacing
+- typography rhythm
+- controlled contrast
 
-Depth is created almost entirely through:
-- typography scale
+---
+
+### Color Philosophy
+
+The Wise palette intentionally rejects conventional fintech aesthetics.
+
+There are:
+- no dark navy palettes
+- no enterprise blues
+- no metallic gradients
+- no glossy surfaces
+- no futuristic neon accents
+
+Instead, the identity is built around three core surfaces:
+
+- warm off-white canvas (`{colors.canvas}`)
+- near-black typography (`{colors.ink}`)
+- vibrant lime-green highlights (`{colors.primary}`)
+
+The lime-green accent is used strategically and sparingly.
+
+Rather than flooding the interface with saturated color, green appears mainly in:
+- primary CTAs
+- onboarding moments
+- transfer confirmations
+- conversion modules
+- statistical highlight bands
+- interaction feedback
+
+This restraint is what gives the brand its distinctive energy.
+
+---
+
+### Surface and Depth Language
+
+Wise intentionally minimizes visual decoration.
+
+The interface avoids:
+- glassmorphism
+- neumorphism
+- layered gradients
+- dramatic shadows
+- excessive elevation systems
+
+Instead, depth is created through:
 - spacing rhythm
-- contrast between green / cream / near-black
-- thin ring borders
+- tonal separation
+- ring borders
+- typography scale
+- contrast between light and dark sections
 
-The result feels unusually confident for a fintech platform: energetic without being playful, minimal without feeling sterile, and premium without relying on luxury visual tropes.
+Most surfaces remain visually flat while still feeling tactile and premium.
 
-**Key Characteristics:**
-- Billboard-scale Wise Sans typography
-- Ultra-tight display line-height (0.85)
-- Lime-green primary CTA system
-- Warm cream/off-white canvas
-- Ring-border elevation instead of shadow-heavy depth
-- Pill-shaped interaction system
-- Scale-based hover animations
-- Inter semibold body typography
+Cards use:
+- oversized corner radii
+- subtle borders
+- minimal shadow depth
+- generous padding
+
+The result feels softer and significantly less stressful than traditional financial interfaces.
+
+---
+
+### Shape Language
+
+The entire product uses oversized rounded geometry to reinforce approachability.
+
+Core patterns include:
+- `{rounded.full}` pill buttons
+- `{rounded.lg}` utility cards
+- `{rounded.xl}` hero containers
+- circular icon controls
+- large touch-friendly interaction areas
+
+Sharp corners are almost entirely absent from the interface.
+
+Even complex financial utilities maintain a softened visual appearance.
+
+---
+
+### Interaction Philosophy
+
+Interactions are intentionally restrained and physical.
+
+Wise avoids:
+- glowing hover states
+- flashy animations
+- exaggerated transitions
+- complex motion systems
+
+Instead, interactions rely mainly on scale transformations.
+
+Typical hover behavior:
+- `transform: scale(1.03)`
+- `transform: scale(1.05)`
+
+Active states slightly compress:
+- `transform: scale(0.96)`
+
+This creates tactile feedback without adding visual noise.
+
+The interface feels alive while remaining minimal.
+
+---
+
+### Layout Rhythm
+
+The layout system alternates between:
+- billboard-scale hero sections
+- compact conversion utilities
+- dark informational comparison bands
+- editorial content blocks
+- oversized statistical highlights
+- simplified onboarding modules
+
+This creates pacing similar to modern editorial layouts instead of traditional application dashboards.
+
+The experience constantly balances:
+- emotional branding
+- financial utility
+- conversion clarity
+- product education
+
+without overwhelming the user.
+
+---
+
+### Emotional Positioning
+
+Traditional fintech platforms often attempt to communicate trust through:
+- technical density
+- corporate rigidity
+- financial seriousness
+- enterprise visual language
+
+Wise takes the opposite approach.
+
+Trust is created through:
+- clarity
+- simplicity
+- breathing room
+- visual confidence
+- reduced interface anxiety
+
+The experience feels:
+- optimistic instead of institutional
+- human instead of mechanical
+- global instead of regional
+- editorial instead of enterprise
+- modern without feeling experimental
+
+The system communicates that financial infrastructure can feel approachable, lightweight, and emotionally positive while still maintaining credibility.
+
+---
+
+### Key Characteristics
+
+- Billboard-scale typography
+- Ultra-heavy Wise Sans headlines
+- Tight 0.85 display line-height
+- Lime-green CTA system
+- Warm off-white surfaces
+- Oversized rounded geometry
+- Editorial composition rhythm
+- Minimal elevation language
+- Scale-based hover interactions
+- Ring-border depth system
+- Humanized fintech UX
+- Calm financial interface design
+- Conversion-first hierarchy
+- Softened utility modules
 - Minimal decorative styling
-- Editorial campaign-style composition
-
-## Usage Notes
-
-### Do
-- Use oversized headlines aggressively.
-- Keep primary CTAs lime-green and highly visible.
-- Preserve large spacing between sections.
-- Use pill buttons for most important actions.
-- Prefer ring borders over strong shadows.
-- Maintain warm off-white surfaces instead of pure white.
-- Let typography carry hierarchy instead of visual effects.
-
-### Don't
-- Do not introduce blue fintech palettes.
-- Do not use gradients or glass effects.
-- Do not add aggressive drop shadows.
-- Do not use tiny typography scales.
-- Do not over-densify layouts.
-- Do not use sharp corner radii.
-- Do not make buttons visually flat or lifeless.
+- Anti-corporate visual direction
