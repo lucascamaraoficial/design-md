@@ -1,6 +1,6 @@
 ---
 version: alpha
-name: "Adobe: soluções de criação, de marketing e de gerenciamento de documentos"
+name: "Adobe"
 description: "Design system extraído automaticamente de adobe.com. Inclui cores, tipografia, componentes e padrões visuais observados na página atual."
 source: "https://www.adobe.com/br/"
 generatedAt: "2026-05-08T23:43:32.072Z"
