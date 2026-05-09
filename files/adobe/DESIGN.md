@@ -3,8 +3,8 @@ version: alpha
 name: "adobe"
 description: "Design system extraído automaticamente de adobe. Inclui cores, tipografia, componentes e padrões visuais observados na página atual."
 source: "https://www.adobe.com/"
-generatedAt: "2026-05-08T23:56:22.370Z"
-generator: "Site to DESIGN.md Chrome Extension"
+generatedAt: "2026-05-09T00:10:14.428Z"
+generator: "Site to DESIGN.md Chrome Extension by Camaraux"
 stylesheetSources:
   - "inline <style>"
   - "https://www.adobe.com/libs/styles/styles.css"
@@ -65,8 +65,8 @@ cssVariables:
   "--bc-header-color": "#131313"
 
 colors:
-  primary: "#1473E6"
-  primary-active: "#1473E6"
+  primary: "#095ABA"
+  primary-active: "#095ABA"
   canvas: "#FFFFFF"
   surface-card: "#F8F8F8"
   surface-soft: "#292929"
@@ -83,34 +83,94 @@ colors:
   extracted-5: "#EAEAEA"
   extracted-6: "#505050"
   extracted-7: "#E1E1E1"
-  extracted-8: "#1473E6"
+  extracted-8: "#274DEA"
   extracted-9: "#4B4B4B"
-  extracted-10: "#B3B3B3"
+  extracted-10: "#1473E6"
 
 typography:
   display-xl:
     fontFamily: "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif"
-    fontSize: "36px"
+    fontSize: "44px"
     fontWeight: "700"
-    lineHeight: "45px"
+    lineHeight: "55px"
     letterSpacing: "0"
   display-lg:
     fontFamily: "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif"
-    fontSize: "20px"
+    fontSize: "44px"
     fontWeight: "700"
-    lineHeight: "25px"
+    lineHeight: "55px"
     letterSpacing: "0"
-  body-md:
+  heading-1:
+    fontFamily: "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif"
+    fontSize: "44px"
+    fontWeight: "700"
+    lineHeight: "55px"
+    letterSpacing: "0"
+  heading-2:
+    fontFamily: "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif"
+    fontSize: "24px"
+    fontWeight: "700"
+    lineHeight: "30px"
+    letterSpacing: "0"
+  heading-3:
+    fontFamily: "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif"
+    fontSize: "18px"
+    fontWeight: "700"
+    lineHeight: "22.5px"
+    letterSpacing: "0"
+  heading-4:
+    fontFamily: "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif"
+    fontSize: "18px"
+    fontWeight: "700"
+    lineHeight: "22.5px"
+    letterSpacing: "0"
+  heading-5:
     fontFamily: "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif"
     fontSize: "16px"
     fontWeight: "700"
     lineHeight: "20px"
+    letterSpacing: "0"
+  heading-6:
+    fontFamily: "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif"
+    fontSize: "16px"
+    fontWeight: "700"
+    lineHeight: "20px"
+    letterSpacing: "0"
+  body-md:
+    fontFamily: "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif"
+    fontSize: "18px"
+    fontWeight: "400"
+    lineHeight: "27px"
+    letterSpacing: "0"
+  paragraph:
+    fontFamily: "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif"
+    fontSize: "16px"
+    fontWeight: "700"
+    lineHeight: "20px"
+    letterSpacing: "0"
+  link:
+    fontFamily: "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif"
+    fontSize: "18px"
+    fontWeight: "400"
+    lineHeight: "27px"
     letterSpacing: "0"
   button-md:
     fontFamily: "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif"
     fontSize: "14px"
     fontWeight: "400"
     lineHeight: "19.6px"
+    letterSpacing: "0"
+  input:
+    fontFamily: "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif"
+    fontSize: "16px"
+    fontWeight: "700"
+    lineHeight: "20px"
+    letterSpacing: "0"
+  label:
+    fontFamily: "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif"
+    fontSize: "16px"
+    fontWeight: "700"
+    lineHeight: "20px"
     letterSpacing: "0"
   caption:
     fontFamily: "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif"
@@ -178,26 +238,27 @@ A extensão analisou o DOM renderizado no navegador e capturou estilos computado
 
 ## Visual Theme
 
-A interface usa como base a cor de canvas `#FFFFFF`, texto principal em `#2C2C2C` e cor de ação provável em `#1473E6`. O sistema visual foi inferido a partir dos elementos visíveis na página atual.
+A interface usa como base a cor de canvas `#FFFFFF`, texto principal em `#2C2C2C` e cor de ação provável em `#095ABA`. O sistema visual foi inferido a partir dos elementos visíveis na página atual.
 
 ## Colors
 
-- **Extraída 1**: `#000000` (2399 ocorrências)
-- **Extraída 2**: `#FFFFFF` (943.5 ocorrências)
-- **Extraída 3**: `#2C2C2C` (770 ocorrências)
-- **Extraída 4**: `#292929` (420.5 ocorrências)
-- **Extraída 5**: `#EAEAEA` (259 ocorrências)
-- **Extraída 6**: `#505050` (219.5 ocorrências)
-- **Extraída 7**: `#E1E1E1` (164 ocorrências)
-- **Extraída 8**: `#1473E6` (136 ocorrências)
-- **Extraída 9**: `#4B4B4B` (125 ocorrências)
-- **Extraída 10**: `#B3B3B3` (112 ocorrências)
+- **Extraída 1**: `#000000` (3264 ocorrências)
+- **Extraída 2**: `#FFFFFF` (1023.5 ocorrências)
+- **Extraída 3**: `#2C2C2C` (843.5 ocorrências)
+- **Extraída 4**: `#292929` (478.5 ocorrências)
+- **Extraída 5**: `#EAEAEA` (307 ocorrências)
+- **Extraída 6**: `#505050` (251.5 ocorrências)
+- **Extraída 7**: `#E1E1E1` (185 ocorrências)
+- **Extraída 8**: `#274DEA` (165.5 ocorrências)
+- **Extraída 9**: `#4B4B4B` (141 ocorrências)
+- **Extraída 10**: `#1473E6` (136 ocorrências)
 
 ### CSS profundo
 
-- Fontes CSS analisadas: 25.
+- Fontes CSS analisadas: 27.
 - Regras CSS úteis extraídas: 260.
 - Variáveis CSS detectadas: 242.
+- Variáveis computadas no `:root`: 163.
 
 - `inline <style>`
 - `https://www.adobe.com/libs/styles/styles.css`
@@ -241,7 +302,7 @@ A interface usa como base a cor de canvas `#FFFFFF`, texto principal em `#2C2C2C
 
 ### Papéis sugeridos
 
-- **Primary**: `#1473E6`
+- **Primary**: `#095ABA`
 - **Canvas**: `#FFFFFF`
 - **Ink**: `#2C2C2C`
 - **Muted**: `#000000`
@@ -250,7 +311,7 @@ A interface usa como base a cor de canvas `#FFFFFF`, texto principal em `#2C2C2C
 
 ## Typography
 
-- `"Adobe Clean", adobe-clean, "Trebuchet MS", sans-serif` (381 ocorrências)
+- `"Adobe Clean", adobe-clean, "Trebuchet MS", sans-serif` (417 ocorrências)
 - `adobe-clean` (39 ocorrências)
 - `var(--body-font-family)` (30 ocorrências)
 - `"Adobe Clean Black", var(--body-font-family)` (12 ocorrências)
@@ -261,16 +322,18 @@ A interface usa como base a cor de canvas `#FFFFFF`, texto principal em `#2C2C2C
 
 | Papel | Fonte | Tamanho | Peso | Linha | Espaçamento |
 |---|---|---:|---:|---:|---:|
-| hero | `"Adobe Clean", adobe-clean, "Trebuchet MS", sans-serif` | `36px` | `700` | `45px` | `normal` |
-| section | `"Adobe Clean", adobe-clean, "Trebuchet MS", sans-serif` | `20px` | `700` | `25px` | `normal` |
-| heading | `"Adobe Clean", adobe-clean, "Trebuchet MS", sans-serif` | `16px` | `700` | `20px` | `normal` |
-| body | `"Adobe Clean", adobe-clean, "Trebuchet MS", sans-serif` | `16px` | `700` | `20px` | `normal` |
+| hero-display | `"Adobe Clean", adobe-clean, "Trebuchet MS", sans-serif` | `44px` | `700` | `55px` | `normal` |
+| heading-1 | `"Adobe Clean", adobe-clean, "Trebuchet MS", sans-serif` | `44px` | `700` | `55px` | `normal` |
+| heading-2 | `"Adobe Clean", adobe-clean, "Trebuchet MS", sans-serif` | `24px` | `700` | `30px` | `normal` |
+| heading-3 | `"Adobe Clean", adobe-clean, "Trebuchet MS", sans-serif` | `18px` | `700` | `22.5px` | `normal` |
+| body-md | `"Adobe Clean", adobe-clean, "Trebuchet MS", sans-serif` | `18px` | `400` | `27px` | `normal` |
+| paragraph | `"Adobe Clean", adobe-clean, "Trebuchet MS", sans-serif` | `16px` | `700` | `20px` | `normal` |
+| link | `"Adobe Clean", adobe-clean, "Trebuchet MS", sans-serif` | `18px` | `400` | `27px` | `normal` |
 | button | `"Adobe Clean", adobe-clean, "Trebuchet MS", sans-serif` | `14px` | `400` | `19.6px` | `normal` |
-| nav-link | `"Adobe Clean", adobe-clean, "Trebuchet MS", sans-serif` | `18px` | `400` | `27px` | `normal` |
 
 ## Layout
 
-- Viewport analisado: 1104×717px.
+- Viewport analisado: 1470×717px.
 - Espaçamentos recorrentes: `15px normal`, `32px`, `16px`, `4px`, `8px`, `30px normal`, `16px 12px`, `normal 8px`.
 - Raios recorrentes: `20px`, `16px`, `50%`, `5.008px`, `25px`, `24px`, `4px`, `0`.
 
@@ -285,9 +348,23 @@ A interface usa como base a cor de canvas `#FFFFFF`, texto principal em `#2C2C2C
 
 ## Components
 
-- **button**: capturado em `button.feds-navLink.feds-navLink--hoverCaret` com 160×63px.
-- **nav**: capturado em `nav.feds-topnav` com 1104×63px.
-- **secondaryButton**: capturado em `button.profile-comp.secondary-button` com 76×32px.
+- **button**: capturado em `button.feds-navLink.feds-navLink--hoverCaret` com 164×63px.
+- **nav**: capturado em `nav.feds-topnav` com 1440×63px.
+- **secondaryButton**: capturado em `button.profile-comp.secondary-button` com 77×32px.
+
+### Elementos HTML analisados
+
+- **body**: `body` · cor `#2C2C2C` · fundo `#FFFFFF` · fonte `18px / 400`.
+- **header**: `header.global-navigation.ready` · cor `#2C2C2C` · fundo `#F8F8F8` · fonte `18px / 400`.
+- **nav**: `nav.feds-topnav` · cor `#2C2C2C` · fundo `transparente` · fonte `18px / 400`.
+- **main**: `main` · cor `#2C2C2C` · fundo `transparente` · fonte `18px / 400`.
+- **section**: `section.feds-navItem.feds-navItem--section.feds-navItem--megaMenu` · cor `#292929` · fundo `transparente` · fonte `14px / 400`.
+- **footer**: `footer.global-footer` · cor `#2C2C2C` · fundo `#FAFAFA` · fonte `12px / 400`.
+- **h1**: `h1#save-cci-intro-offer-percentage-on-creative-cloud-pro` · cor `#2C2C2C` · fundo `transparente` · fonte `44px / 700`.
+- **h2**: `h2#businesses-save-ccp-intro-offer-percentage-on-creative-cloud-pro` · cor `#FFFFFF` · fundo `transparente` · fonte `24px / 700`.
+- **h3**: `h3#prepareyour-taxes-with-adobe-acrobat-this-season` · cor `#2C2C2C` · fundo `transparente` · fonte `18px / 700`.
+- **button**: `button.feds-navLink.feds-navLink--hoverCaret` · cor `#292929` · fundo `transparente` · fonte `14px / 400`.
+- **link**: `a.feds-brand` · cor `#274DEA` · fundo `transparente` · fonte `18px / 400`.
 
 ## Do's and Don'ts
 
