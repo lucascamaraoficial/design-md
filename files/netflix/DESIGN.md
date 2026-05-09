@@ -1,626 +1,522 @@
 ---
-title: "Netflix Inspired Design System"
-description: "Design system inspirado na Netflix para interfaces de streaming, entretenimento e catálogos visuais em design.md."
-version: "1.0.0"
-author: "Camaraux"
-language: "pt-BR"
-tags:
-  - design-system
-  - design-md
-  - streaming
-  - entretenimento
-  - netflix
-  - ui
-  - ux
-source_url: "https://www.netflix.com/browse"
-inspiration: "Netflix"
-license: "Uso educacional e referência visual. Não afiliado à Netflix."
+version: alpha
+name: "netflix"
+description: "Design system extraído automaticamente de netflix. Inclui cores, tipografia, componentes e padrões visuais observados na página atual."
+source: "https://www.netflix.com/browse"
+generatedAt: "2026-05-09T17:09:22.323Z"
+generator: "Site to DESIGN.md by CamaraUX - Extensão Chrome"
+generatorUrl: "https://camaraux.com.br"
+author:
+  name: "CamaraUX"
+  url: "https://camaraux.com.br"
+stylesheetSources:
+  - "inline <style>"
+  - "CSSOM inline stylesheet"
+  - "https://assets.nflxext.com/web/ffe/wp/@nf-web-ui/ui-shared/dist/less/pages/akiraClient.df87027cd99263af62b0.css"
+  - "https://help.nflxext.com/helpcenter/OneTrust/oneTrust_production_2026-04-27/scripttemplates/202604.1.0/assets/otCommonStyles.css"
+  - "https://www.netflix.com/style.css"
+  - "https://www.netflix.com/styles.css"
+  - "https://www.netflix.com/base.css"
+  - "https://www.netflix.com/main.css"
+  - "https://www.netflix.com/css/style.css"
+  - "https://www.netflix.com/css/styles.css"
+  - "https://www.netflix.com/css/base.css"
+  - "https://www.netflix.com/css/main.css"
+  - "https://www.netflix.com/assets/style.css"
+  - "https://www.netflix.com/assets/styles.css"
+  - "https://www.netflix.com/assets/base.css"
+  - "https://www.netflix.com/assets/main.css"
+  - "https://www.netflix.com/assets/css/style.css"
+  - "https://www.netflix.com/assets/css/styles.css"
+  - "https://www.netflix.com/assets/css/base.css"
+  - "https://www.netflix.com/assets/css/main.css"
+cssVariables:
+  "--base-font-size": "0.75vw"
+  "--base-line-height": "1.2"
+  "--chapter-pane-width": "76rem"
+  "--nflx-header-height": "70px"
+  "--nflx-sub-header-height": "70px"
+  "--ot-footer-space": "160px"
+
+colors:
+  primary: "#E50914"
+  primary-active: "#E50914"
+  canvas: "#141414"
+  surface-card: "#222222"
+  surface-soft: "#333333"
+  ink: "#FFFFFF"
+  body: "#FFFFFF"
+  muted: "#000000"
+  border: "#FFFFFF"
+  on-primary: "#FFFFFF"
+  on-dark: "#ffffff"
+  extracted-1: "#FFFFFF"
+  extracted-2: "#000000"
+  extracted-3: "#222222"
+  extracted-4: "#333333"
+  extracted-5: "#E50914"
+  extracted-6: "rgba(0, 0, 0, 0.4)"
+  extracted-7: "rgba(0, 0, 0, 0.7)"
+  extracted-8: "rgba(255, 255, 255, 0.7)"
+  extracted-9: "rgba(255, 255, 255, 0.4)"
+  extracted-10: "rgba(109, 109, 110, 0.4)"
+
+typography:
+  display-xl:
+    fontFamily: "\"Netflix Sans\", \"Helvetica Neue\", \"Segoe UI\", Roboto, Ubuntu, sans-serif"
+    fontSize: "20.58px"
+    fontWeight: "500"
+    lineHeight: "24.696px"
+    letterSpacing: "0"
+  display-lg:
+    fontFamily: "\"Netflix Sans\", \"Helvetica Neue\", \"Segoe UI\", Roboto, Ubuntu, sans-serif"
+    fontSize: "20.58px"
+    fontWeight: "500"
+    lineHeight: "24.696px"
+    letterSpacing: "0"
+  heading-1:
+    fontFamily: "\"Netflix Sans\", \"Helvetica Neue\", \"Segoe UI\", Roboto, Ubuntu, sans-serif"
+    fontSize: "20.58px"
+    fontWeight: "500"
+    lineHeight: "24.696px"
+    letterSpacing: "0"
+  heading-2:
+    fontFamily: "\"Netflix Sans\", \"Helvetica Neue\", \"Segoe UI\", Roboto, Ubuntu, sans-serif"
+    fontSize: "20.58px"
+    fontWeight: "500"
+    lineHeight: "24.696px"
+    letterSpacing: "0"
+  heading-3:
+    fontFamily: "\"Netflix Sans\", \"Helvetica Neue\", \"Segoe UI\", Roboto, Ubuntu, sans-serif"
+    fontSize: "20.58px"
+    fontWeight: "500"
+    lineHeight: "24.696px"
+    letterSpacing: "0"
+  heading-4:
+    fontFamily: "\"Netflix Sans\", \"Helvetica Neue\", \"Segoe UI\", Roboto, Ubuntu, sans-serif"
+    fontSize: "16.5375px"
+    fontWeight: "500"
+    lineHeight: "19.845px"
+    letterSpacing: "0"
+  heading-5:
+    fontFamily: "\"Netflix Sans\", \"Helvetica Neue\", \"Segoe UI\", Roboto, Ubuntu, sans-serif"
+    fontSize: "16.5375px"
+    fontWeight: "500"
+    lineHeight: "19.845px"
+    letterSpacing: "0"
+  heading-6:
+    fontFamily: "\"Netflix Sans\", \"Helvetica Neue\", \"Segoe UI\", Roboto, Ubuntu, sans-serif"
+    fontSize: "16.5375px"
+    fontWeight: "500"
+    lineHeight: "19.845px"
+    letterSpacing: "0"
+  body-md:
+    fontFamily: "\"Netflix Sans\", \"Helvetica Neue\", \"Segoe UI\", Roboto, Ubuntu, sans-serif"
+    fontSize: "11.025px"
+    fontWeight: "400"
+    lineHeight: "13.23px"
+    letterSpacing: "0"
+  paragraph:
+    fontFamily: "\"Netflix Sans\", \"Helvetica Neue\", \"Segoe UI\", Roboto, Ubuntu, sans-serif"
+    fontSize: "16.5375px"
+    fontWeight: "500"
+    lineHeight: "19.845px"
+    letterSpacing: "0"
+  link:
+    fontFamily: "nf-icon"
+    fontSize: "25px"
+    fontWeight: "400"
+    lineHeight: "25px"
+    letterSpacing: "0"
+  button-md:
+    fontFamily: "\"Netflix Sans\", \"Helvetica Neue\", \"Segoe UI\", Roboto, Ubuntu, sans-serif"
+    fontSize: "14px"
+    fontWeight: "400"
+    lineHeight: "16.8px"
+    letterSpacing: "0"
+  input:
+    fontFamily: "\"Netflix Sans\", \"Helvetica Neue\", \"Segoe UI\", Roboto, Ubuntu, sans-serif"
+    fontSize: "16.5375px"
+    fontWeight: "500"
+    lineHeight: "19.845px"
+    letterSpacing: "0"
+  label:
+    fontFamily: "\"Netflix Sans\", \"Helvetica Neue\", \"Segoe UI\", Roboto, Ubuntu, sans-serif"
+    fontSize: "16.5375px"
+    fontWeight: "500"
+    lineHeight: "19.845px"
+    letterSpacing: "0"
+  caption:
+    fontFamily: "\"Netflix Sans\", \"Helvetica Neue\", \"Segoe UI\", Roboto, Ubuntu, sans-serif"
+    fontSize: "16.5375px"
+    fontWeight: "500"
+    lineHeight: "19.845px"
+    letterSpacing: "0"
+
+rounded:
+  none: "0px"
+  sm: "50%"
+  md: "2.94px"
+  lg: "4px"
+  full: "9999px"
+
+spacing:
+  xs: "0 auto"
+  sm: "5px"
+  md: "0"
+  lg: "2px"
+  xl: "32px"
+  section: "64px"
+
+shadows:
+  soft: "0 0 18px rgba(0,0,0,.2)"
+  card: "none"
+
+components:
+  button-primary:
+    backgroundColor: "#FFFFFF"
+    textColor: "#000000"
+    typography: "{typography.button-md}"
+    rounded: "4px"
+    padding: "8.82px 26.46px 8.82px 22.05px"
+    height: "44px"
+    width: "147px"
+    fontSize: "11.025px"
+    fontWeight: "400"
+    lineHeight: "9.702px"
+    display: "flex"
+    alignItems: "center"
+    justifyContent: "center"
+    sourceSelector: "button.color-primary.hasLabel.hasIcon"
+    sampleText: "Assistir"
+  button-secondary:
+    backgroundColor: "rgba(109, 109, 110, 0.7)"
+    textColor: "#FFFFFF"
+    typography: "{typography.button-md}"
+    rounded: "4px"
+    padding: "8.82px 26.46px 8.82px 22.05px"
+    height: "44px"
+    width: "231px"
+    fontSize: "11.025px"
+    fontWeight: "400"
+    lineHeight: "9.702px"
+    display: "flex"
+    alignItems: "center"
+    justifyContent: "center"
+    sourceSelector: "button.color-secondary.hasLabel.hasIcon"
+    sampleText: "Mais informações"
+  button-variant-3:
+    backgroundColor: "{colors.primary}"
+    textColor: "#FFFFFF"
+    typography: "{typography.button-md}"
+    rounded: "50%"
+    padding: "8.82px 8.82px 8.82px 8.82px"
+    height: "39px"
+    width: "39px"
+    border: "1px solid rgba(255, 255, 255, 0.7)"
+    fontSize: "14.8837px"
+    fontWeight: "400"
+    lineHeight: "17.8605px"
+    display: "flex"
+    alignItems: "center"
+    justifyContent: "center"
+    sourceSelector: "button.color-supplementary.hasIcon.round"
+    sampleText: "Ligar áudio"
+  button-variant-4:
+    backgroundColor: "{colors.primary}"
+    textColor: "#FFFFFF"
+    typography: "{typography.button-md}"
+    rounded: "0px"
+    padding: "0px 0px 0px 0px"
+    height: "55px"
+    fontSize: "11.025px"
+    fontWeight: "400"
+    lineHeight: "9.702px"
+    display: "flex"
+    sourceSelector: "div.billboard-links.button-layer.forward-leaning"
+    sampleText: "Assistir Mais informações"
+  button-variant-5:
+    backgroundColor: "{colors.primary}"
+    textColor: "#FFFFFF"
+    typography: "{typography.button-md}"
+    rounded: "0px"
+    padding: "1px 6px 1px 6px"
+    height: "29px"
+    width: "36px"
+    fontSize: "14px"
+    fontWeight: "400"
+    lineHeight: "16.8px"
+    display: "inline-block"
+    sourceSelector: "button.searchTab"
+    sampleText: "Buscar"
+  button-variant-6:
+    backgroundColor: "{colors.primary}"
+    textColor: "#FFFFFF"
+    typography: "{typography.button-md}"
+    rounded: "0px"
+    padding: "0px 0px 0px 0px"
+    height: "35px"
+    width: "156px"
+    fontSize: "11.025px"
+    fontWeight: "400"
+    lineHeight: "13.23px"
+    display: "flex"
+    alignItems: "center"
+    justifyContent: "flex-end"
+    sourceSelector: "div.embedded-components.button-layer"
+  input-primary:
+    backgroundColor: "{colors.canvas}"
+    textColor: "#FFFFFF"
+    typography: "{typography.input}"
+    rounded: "0px"
+    padding: "0px 0px 0px 0px"
+    height: "29px"
+    width: "36px"
+    fontSize: "14px"
+    fontWeight: "400"
+    lineHeight: "16.8px"
+    display: "inline-block"
+    sourceSelector: "div.searchBox"
+  input-secondary:
+    backgroundColor: "{colors.canvas}"
+    textColor: "#FFFFFF"
+    typography: "{typography.input}"
+    rounded: "0px"
+    padding: "1px 6px 1px 6px"
+    height: "29px"
+    width: "36px"
+    fontSize: "14px"
+    fontWeight: "400"
+    lineHeight: "16.8px"
+    display: "inline-block"
+    sourceSelector: "button.searchTab"
+    sampleText: "Buscar"
+  card-primary:
+    backgroundColor: "{colors.surface-card}"
+    textColor: "#FFFFFF"
+    typography: "{typography.body-md}"
+    rounded: "0px"
+    padding: "0px 0px 0px 0px"
+    height: "588px"
+    fontSize: "11.025px"
+    fontWeight: "400"
+    lineHeight: "13.23px"
+    display: "block"
+    sourceSelector: "div.volatile-billboard-animations-container"
+    sampleText: "O que o homem mais rápido do mundo faz no seu dia de folga? Um perito forense desperta de um coma com poderes especiais "
+  card-secondary:
+    backgroundColor: "{colors.surface-card}"
+    textColor: "#FFFFFF"
+    typography: "{typography.body-md}"
+    rounded: "0px"
+    padding: "0px 0px 0px 0px"
+    height: "195px"
+    fontSize: "11.025px"
+    fontWeight: "400"
+    lineHeight: "13.23px"
+    display: "block"
+    sourceSelector: "div.lolomoRow.lolomoRow_title_card.default-ltr-iqcdef-cache-0"
+    sampleText: "Brasil: top 10 em séries hoje My Royal Nemesis Homem em Chamas O Amor Não Está Esgotado Todo Mundo Odeia o Chris O Conto"
+  card-variant-3:
+    backgroundColor: "{colors.surface-card}"
+    textColor: "#FFFFFF"
+    typography: "{typography.body-md}"
+    rounded: "0px"
+    padding: "0px 0px 0px 0px"
+    height: "161px"
+    fontSize: "11.025px"
+    fontWeight: "400"
+    lineHeight: "13.23px"
+    display: "block"
+    sourceSelector: "div.lolomoRow.lolomoRow_title_card.default-ltr-iqcdef-cache-0"
+    sampleText: "Sugestões que você vai adorar Pessoa de Interesse Shangri-La Frontier Assassination Classroom Por Você Mushoku Tensei: J"
+  card-variant-4:
+    backgroundColor: "{colors.surface-card}"
+    textColor: "#FFFFFF"
+    typography: "{typography.body-md}"
+    rounded: "0px"
+    padding: "0px 0px 0px 0px"
+    height: "126px"
+    fontSize: "11.025px"
+    fontWeight: "400"
+    lineHeight: "13.23px"
+    display: "block"
+    sourceSelector: "div#row-1"
+    sampleText: "Pessoa de Interesse Shangri-La Frontier Assassination Classroom Por Você Mushoku Tensei: Jobless Reincarnation Deadly Cl"
+  card-variant-5:
+    backgroundColor: "{colors.surface-card}"
+    textColor: "#FFFFFF"
+    typography: "{typography.body-md}"
+    rounded: "0px"
+    padding: "0px 0px 0px 0px"
+    height: "159px"
+    width: "222px"
+    fontSize: "11.025px"
+    fontWeight: "400"
+    lineHeight: "13.23px"
+    display: "block"
+    sourceSelector: "div.title-card-container.default-ltr-iqcdef-cache-0"
+    sampleText: "My Royal Nemesis"
+  badge-primary:
+    backgroundColor: "#B9090B"
+    textColor: "#FFFFFF"
+    typography: "{typography.body-md}"
+    rounded: "1000px"
+    padding: "3.15px 3.15px 3.15px 3.15px"
+    height: "17px"
+    width: "17px"
+    fontSize: "10.5px"
+    fontWeight: "500"
+    lineHeight: "10.5px"
+    display: "block"
+    sourceSelector: "span.notification-pill"
+    sampleText: "2"
+  badge-secondary:
+    backgroundColor: "{colors.surface-soft}"
+    textColor: "#FFFFFF"
+    typography: "{typography.body-md}"
+    rounded: "0px"
+    padding: "0px 0px 0px 0px"
+    height: "25px"
+    width: "36px"
+    fontSize: "11.025px"
+    fontWeight: "400"
+    lineHeight: "13.23px"
+    sourceSelector: "svg.svg-icon.svg-icon-instagram-logo"
+
 ---
 
-# Netflix Inspired Design System
+# Design System extraído de netflix
+
+## Visão geral
+
+Este DESIGN.md foi gerado automaticamente a partir da página **netflix**.
+
+A extensão analisou o DOM renderizado no navegador e capturou estilos computados de cores, tipografia, componentes, espaçamentos, raios, sombras e superfícies visíveis.
 
-## Overview
+> Fonte analisada: https://www.netflix.com/browse
+
+## Tema visual
+
+A interface usa como base a cor de canvas `#141414`, texto principal em `#FFFFFF` e cor de ação provável em `#E50914`. O sistema visual foi inferido a partir dos elementos visíveis na página atual.
+
+## Cores
+
+- **Extraída 1**: `#FFFFFF` (5011 ocorrências)
+- **Extraída 2**: `#000000` (1526 ocorrências)
+- **Extraída 3**: `#222222` (1428 ocorrências)
+- **Extraída 4**: `#333333` (885 ocorrências)
+- **Extraída 5**: `#E50914` (330.5 ocorrências)
+- **Extraída 6**: `rgba(0, 0, 0, 0.4)` (330 ocorrências)
+- **Extraída 7**: `rgba(0, 0, 0, 0.7)` (323 ocorrências)
+- **Extraída 8**: `rgba(255, 255, 255, 0.7)` (301.5 ocorrências)
+- **Extraída 9**: `rgba(255, 255, 255, 0.4)` (300 ocorrências)
+- **Extraída 10**: `rgba(109, 109, 110, 0.4)` (240 ocorrências)
 
-Design system inspirado na experiência visual da Netflix, focado em interfaces escuras, consumo audiovisual, navegação por catálogo, cards cinematográficos, hierarquia editorial forte e ações rápidas de reprodução.
+### CSS profundo
 
-Use este design.md para criar produtos digitais com estética premium de streaming, páginas de catálogo, plataformas de vídeo, dashboards de conteúdo, hubs de mídia, apps de entretenimento e experiências de descoberta visual.
+- Fontes CSS analisadas: 24.
+- Regras CSS úteis extraídas: 260.
+- Variáveis CSS detectadas: 6.
+- Variáveis computadas no `:root`: 4.
 
-## Brand Personality
+- `inline <style>`
+- `CSSOM inline stylesheet`
+- `https://assets.nflxext.com/web/ffe/wp/@nf-web-ui/ui-shared/dist/less/pages/akiraClient.df87027cd99263af62b0.css`
+- `https://help.nflxext.com/helpcenter/OneTrust/oneTrust_production_2026-04-27/scripttemplates/202604.1.0/assets/otCommonStyles.css`
+- `https://www.netflix.com/style.css`
+- `https://www.netflix.com/styles.css`
+- `https://www.netflix.com/base.css`
+- `https://www.netflix.com/main.css`
+- `https://www.netflix.com/css/style.css`
+- `https://www.netflix.com/css/styles.css`
+- `https://www.netflix.com/css/base.css`
+- `https://www.netflix.com/css/main.css`
 
-- Cinemático
-- Imersivo
-- Direto
-- Premium
-- Editorial
-- Escuro
-- Visual
-- Rápido
-- Personalizado
-- Focado em conteúdo
+### Variáveis CSS relevantes
 
-## Visual Direction
+- `--base-font-size`: `0.75vw`
+- `--base-line-height`: `1.2`
+- `--chapter-pane-width`: `76rem`
+- `--nflx-header-height`: `70px`
+- `--nflx-sub-header-height`: `70px`
+- `--ot-footer-space`: `160px`
 
-A interface deve parecer uma sala de cinema digital: fundo escuro, conteúdo em primeiro plano, forte contraste, imagens grandes, cards horizontais e chamadas de ação simples. A navegação deve ser discreta, deixando filmes, séries, capas e trailers dominarem a experiência.
+### Papéis sugeridos
 
-## Design Principles
+- **Primary**: `#E50914`
+- **Canvas**: `#141414`
+- **Ink**: `#FFFFFF`
+- **Muted**: `#000000`
+- **Border**: `#FFFFFF`
+- **Surface Card**: `#222222`
 
-### Content first
+## Tipografia
 
-O conteúdo visual deve ser o elemento mais importante da interface. Menus, filtros e controles devem apoiar a navegação sem competir com capas, thumbnails e banners.
+- `"Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif` (525 ocorrências)
+- `nf-icon` (30 ocorrências)
+- `Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif` (15 ocorrências)
+- `10px` (8 ocorrências)
 
-### Dark immersion
+### Hierarquia inferida
 
-Use fundos escuros como base principal. O preto e os tons de cinza criam foco, reduzem ruído visual e aumentam a sensação de entretenimento premium.
+| Papel | Fonte | Tamanho | Peso | Linha | Espaçamento |
+|---|---|---:|---:|---:|---:|
+| heading-2 | `"Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif` | `20.58px` | `500` | `24.696px` | `normal` |
+| body-md | `"Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif` | `11.025px` | `400` | `13.23px` | `normal` |
+| paragraph | `"Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif` | `16.5375px` | `500` | `19.845px` | `normal` |
+| link | `nf-icon` | `25px` | `400` | `25px` | `normal` |
+| button | `"Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif` | `14px` | `400` | `16.8px` | `normal` |
 
-### Strong hierarchy
+## Layout
 
-Use títulos grandes, descrições curtas, etiquetas de categoria e CTAs evidentes. O utilizador precisa entender rapidamente o que assistir e onde clicar.
+- Viewport analisado: 1470×717px.
+- Espaçamentos recorrentes: `2px`, `0`, `5px`, `0 auto`, `10px`, `1rem`, `0 0 1em 0`, `6px 10px`.
+- Raios recorrentes: `4px`, `2.94px`, `50%`, `8px`, `2px`, `3px`, `0`, `2.5px`.
 
-### Horizontal discovery
+## Elevação e profundidade
 
-Organize conteúdos em fileiras horizontais, carrosséis e coleções editoriais. A sensação deve ser de navegação contínua por prateleiras de conteúdo.
+- **Sombra 1**: `none`
+- **Sombra 2**: `0 0 18px rgba(0,0,0,.2)`
+- **Sombra 3**: `0 2px 4px 0 rgba(0,0,0,0),0 7px 14px 0 rgba(50,50,93,.1)`
+- **Sombra 4**: `0 0 1px #2196f3`
+- **Sombra 5**: `-3px -3px 5px -2px #c7c5c7`
+- **Sombra 6**: `0px 0px 12px 2px #c7c5c7`
 
-### Motion with purpose
+## Componentes
 
-Animações devem reforçar foco, seleção, preview e transição. Evite movimentos decorativos sem função clara.
+- **badge**: capturado em `span.notification-pill` com 17×17px.
+- **button**: capturado em `button.color-primary.hasLabel.hasIcon` com 147×44px.
+- **card**: capturado em `div.volatile-billboard-animations-container` com 1470×588px.
+- **input**: capturado em `div.searchBox` com 36×29px.
+- **secondaryButton**: capturado em `button.color-secondary.hasLabel.hasIcon` com 231×44px.
 
-## Color System
+### Elementos HTML analisados
 
-### Primary Colors
+- **body**: `body` · cor `#FFFFFF` · fundo `#141414` · fonte `11.025px / 400`.
+- **h2**: `h2.rowTitle.default-ltr-iqcdef-cache-0` · cor `#E5E5E5` · fundo `transparente` · fonte `20.58px / 500`.
+- **button**: `button.searchTab` · cor `#FFFFFF` · fundo `transparente` · fonte `14px / 400`.
+- **link**: `a.logo.icon-logoUpdate.active` · cor `#E50914` · fundo `transparente` · fonte `25px / 400`.
+- **card**: `div.volatile-billboard-animations-container` · cor `#FFFFFF` · fundo `transparente` · fonte `11.025px / 400`.
+- **badge**: `svg.svg-icon.svg-icon-instagram-logo` · cor `#FFFFFF` · fundo `transparente` · fonte `11.025px / 400`.
 
-```css
---color-netflix-red: #E50914;
---color-netflix-red-dark: #B9090B;
---color-netflix-red-deep: #B00500;
---color-netflix-red-bright: #FF0A16;
-```
+## Boas práticas e cuidados
 
-### Background Colors
+### Faça
 
-```css
---color-background-primary: #141414;
---color-background-secondary: #181818;
---color-background-deep: #000000;
---color-background-elevated: #1A1A1A;
---color-background-card: #181818;
---color-background-overlay: rgba(0, 0, 0, 0.70);
---color-background-scrim: rgba(0, 0, 0, 0.55);
-```
+- Use os tokens do frontmatter como fonte principal.
+- Revise manualmente os componentes antes de usar em produção.
+- Complete estados não visíveis, como hover, focus, disabled e erro.
 
-### Text Colors
+### Evite
 
-```css
---color-text-primary: #FFFFFF;
---color-text-secondary: #E5E5E5;
---color-text-muted: #B3B3B3;
---color-text-subtle: #999999;
---color-text-disabled: #666666;
-```
+- Não trate este arquivo como design system oficial da marca.
+- Não assuma estados ou componentes que não estavam visíveis na página.
+- Não use cores extraídas sem validar contraste e acessibilidade.
 
-### Border Colors
+## Limitações conhecidas
 
-```css
---color-border-subtle: #333333;
---color-border-muted: #4D4D4D;
---color-border-light: #666666;
---color-border-focus: #FFFFFF;
-```
-
-### Feedback Colors
-
-```css
---color-success: #5FA53F;
---color-info: #0080FF;
---color-warning: #FFA00A;
---color-error: #E50914;
-```
-
-## Typography
-
-### Font Family
-
-Use Netflix Sans como referência principal. Quando não estiver disponível, use fontes de sistema com boa leitura em interfaces digitais.
-
-```css
---font-primary: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
---font-fallback: Arial, Helvetica, sans-serif;
-```
-
-### Type Scale
-
-```css
---font-size-display: 64px;
---font-size-hero: 48px;
---font-size-title-xl: 32px;
---font-size-title-lg: 24px;
---font-size-title-md: 20px;
---font-size-body-lg: 18px;
---font-size-body: 16px;
---font-size-body-sm: 14px;
---font-size-caption: 12px;
-```
-
-### Font Weights
-
-```css
---font-weight-regular: 400;
---font-weight-medium: 500;
---font-weight-bold: 700;
-```
-
-### Typography Usage
-
-- Use títulos grandes para hero banners e destaques editoriais.
-- Use texto curto em cards e descrições.
-- Evite parágrafos longos em áreas de catálogo.
-- Use peso bold para títulos e labels importantes.
-- Use texto secundário para metadados, géneros, duração e ano.
-
-## Spacing System
-
-```css
---space-0: 0;
---space-1: 4px;
---space-2: 8px;
---space-3: 12px;
---space-4: 16px;
---space-5: 24px;
---space-6: 32px;
---space-7: 48px;
---space-8: 64px;
---space-9: 96px;
-```
-
-### Layout Spacing
-
-- Margem lateral desktop: 60px.
-- Margem lateral tablet: 40px.
-- Margem lateral mobile: 20px.
-- Espaçamento entre fileiras: 32px a 48px.
-- Espaçamento entre cards: 8px a 12px.
-- Espaçamento interno de overlays: 16px a 24px.
-
-## Grid and Layout
-
-### Page Structure
-
-```text
-Header fixo ou transparente
-Hero banner cinematográfico
-Fileiras de conteúdo horizontal
-Cards de títulos
-Área de detalhes em overlay
-Footer discreto
-```
-
-### Content Rows
-
-- Use fileiras horizontais com título de seção.
-- Cards devem ter proporção visual consistente.
-- Carrosséis devem sugerir continuidade lateral.
-- Evite grelhas muito estáticas quando o objetivo for exploração.
-
-### Breakpoints
-
-```css
---breakpoint-mobile: 480px;
---breakpoint-tablet: 768px;
---breakpoint-desktop: 1024px;
---breakpoint-wide: 1440px;
-```
-
-## Components
-
-### Header
-
-O header deve ser simples, escuro e funcional.
-
-#### Structure
-
-- Logo à esquerda.
-- Links de navegação principais.
-- Pesquisa, notificações e perfil à direita.
-- Fundo transparente sobre hero ou fundo escuro sólido ao rolar.
-
-#### Style
-
-```css
-.header {
-  height: 68px;
-  padding: 0 60px;
-  background: linear-gradient(to bottom, rgba(0,0,0,.70), rgba(0,0,0,0));
-  color: #FFFFFF;
-}
-```
-
-### Hero Banner
-
-Hero deve ter imagem ou vídeo de fundo, título grande, descrição curta e CTAs principais.
-
-#### Content
-
-- Título do conteúdo.
-- Descrição curta.
-- Metadados opcionais.
-- Botão primário de reprodução.
-- Botão secundário de informações.
-
-#### Style
-
-```css
-.hero {
-  min-height: 70vh;
-  padding: 160px 60px 80px;
-  background-color: #141414;
-  color: #FFFFFF;
-}
-
-.hero::after {
-  content: "";
-  background: linear-gradient(to top, #141414 0%, rgba(20,20,20,0) 60%);
-}
-```
-
-### Buttons
-
-#### Primary Button
-
-Use para ações principais como assistir, reproduzir ou começar.
-
-```css
-.button-primary {
-  background: #FFFFFF;
-  color: #000000;
-  border-radius: 4px;
-  padding: 10px 24px;
-  font-weight: 700;
-}
-
-.button-primary:hover {
-  background: rgba(255,255,255,.75);
-}
-```
-
-#### Secondary Button
-
-Use para informações, detalhes ou ações complementares.
-
-```css
-.button-secondary {
-  background: rgba(109,109,110,.70);
-  color: #FFFFFF;
-  border-radius: 4px;
-  padding: 10px 24px;
-  font-weight: 700;
-}
-
-.button-secondary:hover {
-  background: rgba(109,109,110,.45);
-}
-```
-
-#### Icon Button
-
-Use para adicionar à lista, avaliar, expandir, fechar ou navegar no carrossel.
-
-```css
-.button-icon {
-  width: 36px;
-  height: 36px;
-  border-radius: 50%;
-  border: 2px solid rgba(255,255,255,.50);
-  background: rgba(42,42,42,.60);
-  color: #FFFFFF;
-}
-```
-
-### Content Card
-
-Cards são o principal componente do catálogo.
-
-#### Style
-
-```css
-.card-content {
-  background: #181818;
-  border-radius: 4px;
-  overflow: hidden;
-  transition: transform 180ms ease, box-shadow 180ms ease;
-}
-
-.card-content:hover {
-  transform: scale(1.06);
-  box-shadow: 0 12px 32px rgba(0,0,0,.60);
-  z-index: 2;
-}
-```
-
-#### Usage
-
-- Use imagem de capa ou thumbnail como área dominante.
-- Título pode aparecer em overlay ou abaixo da imagem.
-- Exiba ações rápidas no hover.
-- Evite bordas coloridas em excesso.
-
-### Card Metadata
-
-```text
-Match percentage
-Ano
-Classificação indicativa
-Duração
-Género
-```
-
-Use metadados curtos e discretos. O foco deve continuar na capa e no título.
-
-### Carousel Row
-
-```css
-.carousel-row {
-  display: flex;
-  gap: 8px;
-  overflow-x: auto;
-  padding: 0 60px;
-}
-```
-
-#### Behaviour
-
-- Navegação lateral com setas.
-- Cards parcialmente visíveis nas extremidades.
-- Título da seção alinhado à margem do conteúdo.
-- Movimento suave, sem pausas bruscas.
-
-### Modal Details
-
-Use modal escuro para apresentar detalhes de um filme, série ou episódio.
-
-```css
-.modal-details {
-  background: #181818;
-  color: #FFFFFF;
-  border-radius: 8px;
-  box-shadow: 0 24px 80px rgba(0,0,0,.85);
-}
-```
-
-#### Structure
-
-- Imagem ou vídeo no topo.
-- Gradiente escuro sobre a mídia.
-- Título e CTAs.
-- Sinopse curta.
-- Metadados.
-- Lista de episódios ou conteúdos relacionados.
-
-### Search
-
-A pesquisa deve ser discreta e rápida.
-
-```css
-.search-input {
-  background: rgba(0,0,0,.75);
-  border: 1px solid #FFFFFF;
-  color: #FFFFFF;
-  height: 36px;
-  padding: 0 12px;
-}
-```
-
-### Profile Avatar
-
-- Use avatares simples em formato quadrado com cantos suaves.
-- Tamanho recomendado: 32px x 32px.
-- Menu de perfil deve usar fundo escuro e borda sutil.
-
-### Badges
-
-```css
-.badge-rating {
-  border: 1px solid rgba(255,255,255,.40);
-  color: #B3B3B3;
-  padding: 2px 6px;
-  font-size: 12px;
-}
-```
-
-Use badges para classificação indicativa, qualidade de vídeo, novo episódio ou conteúdo em destaque.
-
-## Imagery
-
-### Image Style
-
-- Fotografia cinematográfica.
-- Alto contraste.
-- Rostos, cenas e composições dramáticas.
-- Thumbnails com atmosfera narrativa.
-- Fundos escuros ou com profundidade.
-- Evite imagens genéricas ou muito claras.
-
-### Aspect Ratios
-
-```css
---ratio-card-landscape: 16 / 9;
---ratio-card-poster: 2 / 3;
---ratio-hero: 16 / 9;
---ratio-avatar: 1 / 1;
-```
-
-### Gradients
-
-Use gradientes para garantir leitura sobre imagens.
-
-```css
---gradient-hero-bottom: linear-gradient(to top, #141414 0%, rgba(20,20,20,0) 65%);
---gradient-hero-side: linear-gradient(to right, rgba(0,0,0,.85) 0%, rgba(0,0,0,.30) 45%, rgba(0,0,0,0) 100%);
---gradient-card-overlay: linear-gradient(to top, rgba(0,0,0,.85), rgba(0,0,0,0));
-```
-
-## Motion
-
-### Timing
-
-```css
---motion-fast: 120ms;
---motion-base: 180ms;
---motion-slow: 300ms;
---motion-ease: cubic-bezier(.4, 0, .2, 1);
-```
-
-### Animation Rules
-
-- Hover de card deve ampliar levemente.
-- Modais devem surgir com fade e scale suave.
-- Carrosséis devem mover de forma fluida.
-- Evite transições lentas em ações principais.
-- Use motion para indicar foco, não para decorar.
-
-## Accessibility
-
-### Contrast
-
-- Texto principal branco sobre fundo escuro.
-- Texto secundário nunca abaixo de contraste aceitável.
-- Botões devem ter estados visíveis de foco e hover.
-
-### Focus
-
-```css
-:focus-visible {
-  outline: 2px solid #FFFFFF;
-  outline-offset: 2px;
-}
-```
-
-### Keyboard Navigation
-
-- Todos os cards devem ser acessíveis por teclado.
-- Carrosséis devem permitir navegação sem rato.
-- Modais devem prender foco enquanto abertos.
-- Botões de fechar devem ter label acessível.
-
-### Alt Text
-
-- Descreva o conteúdo visual do título ou thumbnail.
-- Não comece alt text com “imagem de” ou “foto de”.
-- Use descrições curtas e úteis.
-
-## Voice and Copy
-
-### Tone
-
-- Direto
-- Curto
-- Confiante
-- Editorial
-- Orientado à ação
-
-### CTA Examples
-
-- Assistir
-- Reproduzir
-- Mais informações
-- Adicionar à lista
-- Continuar assistindo
-- Ver detalhes
-- Explorar catálogo
-
-### Microcopy Rules
-
-- Use frases curtas.
-- Evite explicações longas.
-- Priorize ação imediata.
-- Em estados vazios, ajude o utilizador a encontrar conteúdo.
-
-## Page Templates
-
-### Browse Page
-
-```text
-Header
-Hero em destaque
-Continuar assistindo
-Minha lista
-Populares agora
-Lançamentos
-Categorias editoriais
-Footer
-```
-
-### Title Detail Page
-
-```text
-Hero com imagem/vídeo
-Título
-CTAs
-Sinopse
-Metadados
-Episódios
-Títulos semelhantes
-```
-
-### Search Results Page
-
-```text
-Header com campo ativo
-Termo pesquisado
-Resultados em grid/carrossel
-Sugestões relacionadas
-Estado vazio quando necessário
-```
-
-### Profile Selection
-
-```text
-Fundo preto
-Título central
-Lista de perfis
-Botão gerir perfis
-```
-
-## Do
-
-- Use fundo escuro como base.
-- Dê protagonismo às imagens.
-- Use vermelho apenas para marca, alertas e ênfase.
-- Crie hierarquia clara entre destaque, seção e card.
-- Mantenha CTAs simples e visíveis.
-- Use cards com proporções consistentes.
-
-## Don't
-
-- Não use fundos claros como base principal.
-- Não sobrecarregue cards com texto.
-- Não use muitas cores fora da paleta.
-- Não aplique bordas decorativas pesadas.
-- Não esconda ações principais.
-- Não use animações lentas demais.
-
-## CSS Token Export
-
-```css
-:root {
-  --color-brand-primary: #E50914;
-  --color-brand-primary-dark: #B9090B;
-  --color-bg-primary: #141414;
-  --color-bg-secondary: #181818;
-  --color-bg-black: #000000;
-  --color-text-primary: #FFFFFF;
-  --color-text-secondary: #E5E5E5;
-  --color-text-muted: #B3B3B3;
-  --color-border: #333333;
-  --font-primary: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
-  --radius-sm: 4px;
-  --radius-md: 8px;
-  --shadow-card-hover: 0 12px 32px rgba(0,0,0,.60);
-  --shadow-modal: 0 24px 80px rgba(0,0,0,.85);
-  --motion-fast: 120ms;
-  --motion-base: 180ms;
-  --motion-ease: cubic-bezier(.4, 0, .2, 1);
-}
-```
-
-## Implementation Notes
-
-Este arquivo é uma referência de design inspirada na linguagem visual da Netflix. Use como base para interfaces próprias de streaming, entretenimento e catálogo, sem copiar marcas, logótipos, conteúdos protegidos ou elementos proprietários.
+- O arquivo foi gerado por inspeção visual do DOM renderizado e leitura profunda dos arquivos CSS acessíveis.
+- Estados interativos podem não ter sido capturados.
+- Componentes fora da viewport ou carregados após interação podem estar ausentes.
+- A intenção de marca precisa de revisão humana.
