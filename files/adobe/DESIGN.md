@@ -3,8 +3,12 @@ version: alpha
 name: "adobe"
 description: "Design system extraído automaticamente de adobe. Inclui cores, tipografia, componentes e padrões visuais observados na página atual."
 source: "https://www.adobe.com/"
-generatedAt: "2026-05-09T00:10:14.428Z"
+generatedAt: "2026-05-09T00:20:24.420Z"
 generator: "Site to DESIGN.md Chrome Extension by Camaraux"
+generatorUrl: "https://camaraux.com.br"
+author:
+  name: "Camaraux"
+  url: "https://camaraux.com.br"
 stylesheetSources:
   - "inline <style>"
   - "https://www.adobe.com/libs/styles/styles.css"
@@ -82,47 +86,47 @@ colors:
   extracted-4: "#292929"
   extracted-5: "#EAEAEA"
   extracted-6: "#505050"
-  extracted-7: "#E1E1E1"
-  extracted-8: "#274DEA"
-  extracted-9: "#4B4B4B"
-  extracted-10: "#1473E6"
+  extracted-7: "#BCBCBC"
+  extracted-8: "#E1E1E1"
+  extracted-9: "#274DEA"
+  extracted-10: "#4B4B4B"
 
 typography:
   display-xl:
     fontFamily: "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif"
-    fontSize: "44px"
+    fontSize: "36px"
     fontWeight: "700"
-    lineHeight: "55px"
+    lineHeight: "45px"
     letterSpacing: "0"
   display-lg:
     fontFamily: "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif"
-    fontSize: "44px"
+    fontSize: "36px"
     fontWeight: "700"
-    lineHeight: "55px"
+    lineHeight: "45px"
     letterSpacing: "0"
   heading-1:
     fontFamily: "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif"
-    fontSize: "44px"
+    fontSize: "36px"
     fontWeight: "700"
-    lineHeight: "55px"
+    lineHeight: "45px"
     letterSpacing: "0"
   heading-2:
     fontFamily: "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif"
-    fontSize: "24px"
+    fontSize: "20px"
     fontWeight: "700"
-    lineHeight: "30px"
+    lineHeight: "25px"
     letterSpacing: "0"
   heading-3:
     fontFamily: "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif"
-    fontSize: "18px"
+    fontSize: "16px"
     fontWeight: "700"
-    lineHeight: "22.5px"
+    lineHeight: "20px"
     letterSpacing: "0"
   heading-4:
     fontFamily: "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif"
-    fontSize: "18px"
+    fontSize: "16px"
     fontWeight: "700"
-    lineHeight: "22.5px"
+    lineHeight: "20px"
     letterSpacing: "0"
   heading-5:
     fontFamily: "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif"
@@ -200,21 +204,111 @@ shadows:
 
 components:
   button-primary:
-    backgroundColor: "{colors.primary}"
-    textColor: "#292929"
-    typography: "{typography.body-md}"
-    rounded: "0px"
-    padding: "0px 20px 0px 20px"
-    height: "63px"
+    backgroundColor: "#3B63FB"
+    textColor: "#FFFFFF"
+    typography: "{typography.button-md}"
+    rounded: "25px"
+    padding: "10px 24px 8px 24px"
+    height: "50px"
+    width: "129px"
+    border: "2px solid #3B63FB"
+    fontSize: "19px"
+    fontWeight: "700"
+    lineHeight: "24px"
+    display: "block"
+    sourceSelector: "a.con-button.blue.button-xl"
+    sampleText: "Save now"
   button-secondary:
+    backgroundColor: "rgba(250, 250, 250, 0.85)"
+    textColor: "#000000"
+    typography: "{typography.button-md}"
+    rounded: "24px"
+    padding: "0px 8px 0px 8px"
+    height: "48px"
+    width: "276px"
+    shadow: "rgba(0, 0, 0, 0.06) 0px 4px 12px 0px"
+    fontSize: "13.3333px"
+    fontWeight: "400"
+    lineHeight: "normal"
+    display: "flex"
+    alignItems: "center"
+    sourceSelector: "button.bc-floating-button-container.no-track"
+    sampleText: "Ask a question"
+  button-variant-3:
+    backgroundColor: "{colors.primary}"
+    textColor: "#2C2C2C"
+    typography: "{typography.button-md}"
+    rounded: "16px"
+    padding: "0px 14px 0px 14px"
+    height: "30px"
+    width: "158px"
+    border: "2px solid #2C2C2C"
+    fontSize: "15px"
+    fontWeight: "700"
+    lineHeight: "16px"
+    display: "flex"
+    alignItems: "center"
+    justifyContent: "center"
+    sourceSelector: "a.icon-area.con-button.outline"
+    sampleText: "Fill & Sign PDFs"
+  button-variant-4:
+    backgroundColor: "{colors.primary}"
+    textColor: "#2C2C2C"
+    typography: "{typography.button-md}"
+    rounded: "0px"
+    padding: "0px 0px 0px 0px"
+    height: "46px"
+    width: "139px"
+    fontSize: "14px"
+    fontWeight: "400"
+    lineHeight: "21px"
+    display: "flex"
+    justifyContent: "center"
+    sourceSelector: "li.body-xs.button-index-3"
+    sampleText: "View PDFs"
+  button-variant-5:
+    backgroundColor: "{colors.primary}"
+    textColor: "#2C2C2C"
+    typography: "{typography.button-md}"
+    rounded: "0px"
+    padding: "0px 0px 0px 0px"
+    height: "46px"
+    width: "174px"
+    fontSize: "14px"
+    fontWeight: "400"
+    lineHeight: "21px"
+    display: "flex"
+    justifyContent: "center"
+    sourceSelector: "li.body-xs.button-index-5"
+    sampleText: "Fill & Sign PDFs"
+  button-variant-6:
+    backgroundColor: "{colors.primary}"
+    textColor: "#2C2C2C"
+    typography: "{typography.button-md}"
+    rounded: "0px"
+    padding: "0px 0px 0px 0px"
+    height: "48px"
+    width: "276px"
+    fontSize: "18px"
+    fontWeight: "400"
+    lineHeight: "27px"
+    display: "block"
+    sourceSelector: "section.bc-floating-button.floating-show"
+    sampleText: "Ask a question"
+  input-primary:
     backgroundColor: "{colors.canvas}"
     textColor: "#292929"
-    typography: "{typography.body-md}"
-    rounded: "16px"
-    padding: "6px 16px 8px 16px"
-    height: "32px"
-    border: "2px solid #DADADA"
-
+    typography: "{typography.input}"
+    rounded: "0px"
+    padding: "12px 0px 12px 0px"
+    height: "48px"
+    width: "176px"
+    fontSize: "16px"
+    fontWeight: "400"
+    lineHeight: "24px"
+    display: "block"
+    sourceSelector: "div.bc-floating-input"
+    sampleText: "Ask a question"
 
 
   top-nav:
@@ -224,6 +318,13 @@ components:
     rounded: "0px"
     padding: "0px 0px 0px 0px"
     height: "63px"
+    fontSize: "18px"
+    fontWeight: "400"
+    lineHeight: "27px"
+    display: "flex"
+    justifyContent: "space-between"
+    sourceSelector: "nav.feds-topnav"
+    sampleText: "Creativity & Design PDF & E-signatures Marketing & Commerce Learn & Support Sign in"
 ---
 
 # Design System extraído de adobe
@@ -242,20 +343,20 @@ A interface usa como base a cor de canvas `#FFFFFF`, texto principal em `#2C2C2C
 
 ## Colors
 
-- **Extraída 1**: `#000000` (3264 ocorrências)
-- **Extraída 2**: `#FFFFFF` (1023.5 ocorrências)
-- **Extraída 3**: `#2C2C2C` (843.5 ocorrências)
+- **Extraída 1**: `#000000` (3480 ocorrências)
+- **Extraída 2**: `#FFFFFF` (1243.5 ocorrências)
+- **Extraída 3**: `#2C2C2C` (1127 ocorrências)
 - **Extraída 4**: `#292929` (478.5 ocorrências)
 - **Extraída 5**: `#EAEAEA` (307 ocorrências)
 - **Extraída 6**: `#505050` (251.5 ocorrências)
-- **Extraída 7**: `#E1E1E1` (185 ocorrências)
-- **Extraída 8**: `#274DEA` (165.5 ocorrências)
-- **Extraída 9**: `#4B4B4B` (141 ocorrências)
-- **Extraída 10**: `#1473E6` (136 ocorrências)
+- **Extraída 7**: `#BCBCBC` (228 ocorrências)
+- **Extraída 8**: `#E1E1E1` (185 ocorrências)
+- **Extraída 9**: `#274DEA` (165.5 ocorrências)
+- **Extraída 10**: `#4B4B4B` (141 ocorrências)
 
 ### CSS profundo
 
-- Fontes CSS analisadas: 27.
+- Fontes CSS analisadas: 40.
 - Regras CSS úteis extraídas: 260.
 - Variáveis CSS detectadas: 242.
 - Variáveis computadas no `:root`: 163.
@@ -322,10 +423,10 @@ A interface usa como base a cor de canvas `#FFFFFF`, texto principal em `#2C2C2C
 
 | Papel | Fonte | Tamanho | Peso | Linha | Espaçamento |
 |---|---|---:|---:|---:|---:|
-| hero-display | `"Adobe Clean", adobe-clean, "Trebuchet MS", sans-serif` | `44px` | `700` | `55px` | `normal` |
-| heading-1 | `"Adobe Clean", adobe-clean, "Trebuchet MS", sans-serif` | `44px` | `700` | `55px` | `normal` |
-| heading-2 | `"Adobe Clean", adobe-clean, "Trebuchet MS", sans-serif` | `24px` | `700` | `30px` | `normal` |
-| heading-3 | `"Adobe Clean", adobe-clean, "Trebuchet MS", sans-serif` | `18px` | `700` | `22.5px` | `normal` |
+| hero-display | `"Adobe Clean", adobe-clean, "Trebuchet MS", sans-serif` | `36px` | `700` | `45px` | `normal` |
+| heading-1 | `"Adobe Clean", adobe-clean, "Trebuchet MS", sans-serif` | `36px` | `700` | `45px` | `normal` |
+| heading-2 | `"Adobe Clean", adobe-clean, "Trebuchet MS", sans-serif` | `20px` | `700` | `25px` | `normal` |
+| heading-3 | `"Adobe Clean", adobe-clean, "Trebuchet MS", sans-serif` | `16px` | `700` | `20px` | `normal` |
 | body-md | `"Adobe Clean", adobe-clean, "Trebuchet MS", sans-serif` | `18px` | `400` | `27px` | `normal` |
 | paragraph | `"Adobe Clean", adobe-clean, "Trebuchet MS", sans-serif` | `16px` | `700` | `20px` | `normal` |
 | link | `"Adobe Clean", adobe-clean, "Trebuchet MS", sans-serif` | `18px` | `400` | `27px` | `normal` |
@@ -333,9 +434,9 @@ A interface usa como base a cor de canvas `#FFFFFF`, texto principal em `#2C2C2C
 
 ## Layout
 
-- Viewport analisado: 1470×717px.
+- Viewport analisado: 1104×717px.
 - Espaçamentos recorrentes: `15px normal`, `32px`, `16px`, `4px`, `8px`, `30px normal`, `16px 12px`, `normal 8px`.
-- Raios recorrentes: `20px`, `16px`, `50%`, `5.008px`, `25px`, `24px`, `4px`, `0`.
+- Raios recorrentes: `20px`, `16px`, `50%`, `5.008px`, `25px`, `24px`, `5px`, `4px 4px 0px 0px`.
 
 ## Elevation & Depth
 
@@ -348,9 +449,10 @@ A interface usa como base a cor de canvas `#FFFFFF`, texto principal em `#2C2C2C
 
 ## Components
 
-- **button**: capturado em `button.feds-navLink.feds-navLink--hoverCaret` com 164×63px.
-- **nav**: capturado em `nav.feds-topnav` com 1440×63px.
-- **secondaryButton**: capturado em `button.profile-comp.secondary-button` com 77×32px.
+- **button**: capturado em `a.con-button.blue.button-xl` com 129×50px.
+- **input**: capturado em `div.bc-floating-input` com 176×48px.
+- **nav**: capturado em `nav.feds-topnav` com 1104×63px.
+- **secondaryButton**: capturado em `button.bc-floating-button-container.no-track` com 276×48px.
 
 ### Elementos HTML analisados
 
@@ -360,9 +462,9 @@ A interface usa como base a cor de canvas `#FFFFFF`, texto principal em `#2C2C2C
 - **main**: `main` · cor `#2C2C2C` · fundo `transparente` · fonte `18px / 400`.
 - **section**: `section.feds-navItem.feds-navItem--section.feds-navItem--megaMenu` · cor `#292929` · fundo `transparente` · fonte `14px / 400`.
 - **footer**: `footer.global-footer` · cor `#2C2C2C` · fundo `#FAFAFA` · fonte `12px / 400`.
-- **h1**: `h1#save-cci-intro-offer-percentage-on-creative-cloud-pro` · cor `#2C2C2C` · fundo `transparente` · fonte `44px / 700`.
-- **h2**: `h2#businesses-save-ccp-intro-offer-percentage-on-creative-cloud-pro` · cor `#FFFFFF` · fundo `transparente` · fonte `24px / 700`.
-- **h3**: `h3#prepareyour-taxes-with-adobe-acrobat-this-season` · cor `#2C2C2C` · fundo `transparente` · fonte `18px / 700`.
+- **h1**: `h1#save-cci-intro-offer-percentage-on-creative-cloud-pro` · cor `#2C2C2C` · fundo `transparente` · fonte `36px / 700`.
+- **h2**: `h2#businesses-save-ccp-intro-offer-percentage-on-creative-cloud-pro` · cor `#FFFFFF` · fundo `transparente` · fonte `20px / 700`.
+- **h3**: `h3#prepareyour-taxes-with-adobe-acrobat-this-season` · cor `#2C2C2C` · fundo `transparente` · fonte `16px / 700`.
 - **button**: `button.feds-navLink.feds-navLink--hoverCaret` · cor `#292929` · fundo `transparente` · fonte `14px / 400`.
 - **link**: `a.feds-brand` · cor `#274DEA` · fundo `transparente` · fonte `18px / 400`.
 
